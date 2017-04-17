@@ -9,7 +9,7 @@ var upgraderLimit = 3
 var mineralHarvesterLimit = 0
 
 module.exports.loop = function() {
-    console.log('test')
+    
     for (var name in Memory.creeps) {
         if (!Game.creeps[name]) {
             delete Memory.creeps[name];
